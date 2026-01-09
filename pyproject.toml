@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "comp0034-activities"
+version = "2025.01"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "Flask",
+    "pandas",
+    "streamlit",
+    "dash",
+    "plotly",
+    "dash_ag_grid",
+    "dash-bootstrap-components"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
